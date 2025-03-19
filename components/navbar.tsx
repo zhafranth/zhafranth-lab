@@ -7,6 +7,7 @@ const Navbar = () => {
       <StarBorder as="button" color="cyan" speed="5s">
         <a href="#home">Home</a>
         <a href="#home">Project</a>
+        <a href="#home">Skills</a>
         <a href="#home">Experience</a>
         <a href="#home">Education</a>
         <a href="#home">Contact</a>
