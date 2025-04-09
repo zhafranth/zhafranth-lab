@@ -17,13 +17,15 @@ const Hero = () => {
         />
       </div>
       <div className="absolute top-0 left-0 right-0 bottom-0 w-full h-full z-20 px-[14vw] flex flex-col justify-center">
-        <div className="flex items-end justify-between gap-x-6">
+        <div className="flex md:flex-row flex-col items-end justify-between gap-6">
           <div className="">
-            <p className="text-xl">Hi, I&apos;m Zhafran Tharif</p>
-            <h2 className="text-7xl font-semibold">Software Developer</h2>
+            <p className="text-2xl md:text-xl">Hi, I&apos;m Zhafran Tharif</p>
+            <h2 className="text-6xl md:text-7xl font-semibold">
+              Software Developer
+            </h2>
           </div>
           <div className="">
-            <p className="text-3xl">
+            <p className="text-2xl md:text-3xl">
               Transforming ideas into interactive and seamless digital
               experiences with cutting-edge frontend development.
             </p>
