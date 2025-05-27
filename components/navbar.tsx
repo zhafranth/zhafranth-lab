@@ -9,6 +9,7 @@ const Navbar = () => {
         <a href="#home">Project</a>
         <a href="#home">Update</a>
         <a href="#home">Experience</a>
+        <a href="#home">Contact</a>
       </StarBorder>
     </div>
   );
