@@ -3,8 +3,30 @@ import Particles from "./react-bits/particles";
 import BlurText from "./react-bits/blur-text";
 import DecryptedText from "./react-bits/decrypted-text";
 import ShinyText from "./react-bits/shiny-text";
+import GlassIcons from "./react-bits/glass-icons";
+import { GithubIcon, Linkedin, Instagram } from "lucide-react";
 
 const Hero = () => {
+  const items = [
+    {
+      icon: <GithubIcon />,
+      color: "gray",
+      link: "https://github.com/zhafranth",
+      label: "Github",
+    },
+    {
+      icon: <Linkedin />,
+      color: "gray",
+      link: "https://www.linkedin.com/in/zhafrantharif/",
+      label: "Linkedin",
+    },
+    {
+      icon: <Instagram />,
+      color: "gray",
+      link: "https://www.instagram.com/zhafranth/",
+      label: "Instagram",
+    },
+  ];
   return (
     <div className="h-screen relative overflow-hidden">
       <div style={{ width: "100%", height: "100%", position: "relative" }}>
@@ -38,23 +60,22 @@ const Hero = () => {
             <DecryptedText
               text="Empowering digital products with fullstack engineering — clean code,
             "
-              className="text-xl md:text-3xl leading-12 md:leading-9"
+              className="text-xl md:text-3xl leading-10 md:leading-9"
               animateOn="view"
               speed={60}
               maxIterations={15}
             />
             <DecryptedText
               text="scalable systems, and intuitive interfaces."
-              className="text-xl md:text-3xl leading-12 md:leading-9"
+              className="text-xl md:text-3xl leading-10 md:leading-9"
               animateOn="view"
               speed={80}
               maxIterations={25}
             />
           </div>
-          {/* <p className="text-3xl md:text-3xl leading-12 md:leading-9">
-            Empowering digital products with fullstack engineering — clean code,
-            scalable systems, and intuitive interfaces.
-          </p> */}
+        </div>
+        <div className="mt-2 h-[200px] relative">
+          <GlassIcons items={items} />
         </div>
       </div>
     </div>
