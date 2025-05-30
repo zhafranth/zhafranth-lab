@@ -11,17 +11,17 @@ type StarBorderProps<T extends React.ElementType> =
   };
 
 const StarBorder = <T extends React.ElementType = "button">({
-  as,
+  // as,
   className = "",
   color = "white",
   speed = "6s",
   children,
   ...rest
 }: StarBorderProps<T>) => {
-  const Component = as || "button";
+  // const Component = as || "button";
 
   return (
-    <Component className={`star-border-container ${className}`} {...rest}>
+    <button className={`star-border-container ${className}`} {...rest}>
       <div
         className="border-gradient-bottom"
         style={{
@@ -37,7 +37,7 @@ const StarBorder = <T extends React.ElementType = "button">({
         }}
       ></div>
       <div className="inner-content">{children}</div>
-    </Component>
+    </button>
   );
 };
 
