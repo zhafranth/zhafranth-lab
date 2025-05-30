@@ -1,0 +1,50 @@
+[
+  {
+    "year": "2021",
+    "company": "Bibit",
+    "join_date": "Oct 2021 - Present",
+    "position": "Web Developer",
+    "description": [
+      "Develop new features by collaborating with backend and UI/UX teams",
+      "Refactor code from JavaScript to TypeScript",
+      "Create unit tests for each feature",
+      "Develop automation scripts for repetitive tasks",
+      "Optimize application performance and improve loading times",
+      "Maintain and update existing codebase to ensure consistency and efficiency"
+    ]
+  },
+  {
+    "year": "2020",
+    "company": "Ekselen",
+    "join_date": "Jul 2020 - Oct 2021",
+    "position": "Frontend Developer / UI/UX Designer",
+    "description": [
+      "Create UI/UX Design for web and mobile Ekselen.id",
+      "Application implementation and integration using reactjs",
+      "Ensure the application runs for every mobile responsive",
+      "Build a mobile application ekselen.id using react native"
+    ]
+  },
+  {
+    "year": "2019",
+    "company": "Telkom Indonesia",
+    "join_date": "Jun 2019 - Des 2020",
+    "position": "QA Engineer Automation (Internship)",
+    "description": [
+      "Execute manual and automated tests to ensure product quality",
+      "Identify, document, and track software defects and inconsistencies",
+      "Create test plans and execute automation tests"
+    ]
+  },
+  {
+    "year": "2018",
+    "company": "Telkom Indonesia",
+    "join_date": "Jan 2018 - Feb 2019",
+    "position": "UI/UX Designer (Internship)",
+    "description": [
+      "Assist in creating wireframes, mockups, and prototypes to visualize design concepts",
+      "Conduct user research and usability testing to gather feedback and improve designs",
+      "Collaborate with developers and other stakeholders to ensure design feasibility and implementation consistency"
+    ]
+  }
+]
