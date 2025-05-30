@@ -5,6 +5,7 @@ import DecryptedText from "./react-bits/decrypted-text";
 import ShinyText from "./react-bits/shiny-text";
 import GlassIcons from "./react-bits/glass-icons";
 import { GithubIcon, Linkedin, Instagram } from "lucide-react";
+// import WorldGlobe from "./world-globe";
 
 const Hero = () => {
   const items = [
@@ -78,6 +79,7 @@ const Hero = () => {
           <GlassIcons items={items} />
         </div>
       </div>
+      {/* <WorldGlobe /> */}
     </div>
   );
 };
