@@ -28,8 +28,10 @@ const ExperienceCard: React.FC<Props> = ({ data }) => {
           <h4 className="mb-4">{position}</h4>
 
           {description.map((item, index) => (
-            <div className="flex items-center gap-x-4" key={index}>
-              <DotPulse color="#1c45b6" size={6} />
+            <div className="flex gap-x-4" key={index}>
+              <div>
+                <DotPulse color="#1c45b6" size={6} />
+              </div>
               <p className="relative z-50 text-base font-normal text-slate-500">
                 {item}
               </p>

@@ -13,7 +13,7 @@ const Experience = () => {
     []
   );
   return (
-    <div className="px-4 md:px-[14vw] py-12">
+    <div className="px-4 md:px-[14vw] py-12 relative z-10">
       <Timeline data={experiences} />
     </div>
   );

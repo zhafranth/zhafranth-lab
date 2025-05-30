@@ -396,7 +396,7 @@ const WorldGlobe = () => {
     },
   ];
   return (
-    <div className="absolute top-[450px] -right-72 h-[750px] w-[750px]">
+    <div className="absolute top-[450px] -right-72 h-[650px] md:h-[750px] w-[650px] md:w-[750px] z-0">
       <div className="absolute h-full w-full ">
         <World data={sampleArcs} globeConfig={globeConfig} />
       </div>
