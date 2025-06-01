@@ -1,6 +1,8 @@
 import Experience from "@/components/experience";
+import Footer from "@/components/footer";
 import Hero from "@/components/hero";
 import Navbar from "@/components/navbar";
+import Speciality from "@/components/speciality";
 import WorldGlobe from "@/components/world-globe";
 // import Portfolio from "@/components/portfolio";
 
@@ -10,8 +12,9 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Experience />
-      {/* <Portfolio /> */}
+      <Speciality />
       <WorldGlobe />
+      <Footer />
     </main>
   );
 }
