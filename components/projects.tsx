@@ -33,7 +33,7 @@ const projects = () => {
           My Projects
         </GradientText>
       </div>
-      <div className="flex gap-x-4 justify-center">
+      <div className="flex md:flex-row flex-col gap-24 md:gap-4 justify-center">
         {projects_list.map(({ description, href, title, img }, index) => {
           return (
             <PinContainer title={title} href={href} key={index}>
