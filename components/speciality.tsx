@@ -26,7 +26,7 @@ const Speciality = () => {
     },
   ];
   return (
-    <div className="px-4 md:px-[14vw] py-12">
+    <div className="px-4 md:px-[14vw]">
       <ShinyText
         text={`Specialities`}
         disabled={false}
